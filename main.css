@@ -350,8 +350,28 @@ display: flex; justify-content: center; align-items: center; }
     
     .box_01{height: 400px; }
 
-    .footer_top_01{display: none; }
+    .download_bar>p>a {
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 5px 5px 5px;
+    font-weight: 500;}
     
+    .title_01{font-size: 24px; font-weight: 700; margin-bottom: 60px; }
+    .title_02{color:#254ac2; font-size: 60px; font-weight: 700; text-align:    center; margin: 80px 0 0 0;}
+    .title_03{color:#254ac2; font-size: 60px; font-weight: 700; }
+    .title_04{color:#254ac2; font-size: 24px; font-weight: 700; text-align:    center; margin: 100px 0 100px 0; }
+    .title_05{color:#254ac2; font-size: 60px; font-weight: 700; text-align:    center; }
+    .title_06{color:#254ac2; font-size: 24px; font-weight: 700; margin-bottom: 24px; }
+
+    .copy_01{font-size: 16px; }
+    .copy_02{font-size: 24px; }
+    .copy_03{font-size: 24px; }
+    
+    
+    
+    .footer_top_01{display: none; }
+    .footer_title{max-width: 90%; font-size: 24px; }
 //CSS
 
 }
