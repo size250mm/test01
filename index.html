@@ -530,8 +530,7 @@
     $(document).ready(function(){
         var width_outer = window.outerWidth;
         $('.video_group').css({maxWidth:'calc(100% - 240px)'})
-
-        
+        $('html, body').animate({scrollTop:'0'},1000)
     })
     
     
@@ -585,20 +584,32 @@ $('.ham_group').click(function(){
     $('.ham_group').find('span').eq(2).css({transform:'rotate(0) translate(0,0)'});
     
         
-        if(width_outer < 769){
-             $('.fixed_menu_left').css({display:'none'});
+        if(width_outer < 768){
+            $('.fixed_menu_left').css({display:'none'});
+            
         }
     }
     
         $(window).resize(function(){
         var width_outer = window.outerWidth;
+        
+    if(width_outer < 768){
+        $('.video_group').css({maxWidth:'100%'})
+    }
+    if(width_outer > 769){
+        $('.video_group').css({maxWidth:'calc(100% - 240px)'})
+    }
             
-    if(width_outer < 769 || ham_num == 1){
+    if(width_outer < 768 || ham_num == 1){
         $('.fixed_menu_left').css({display:'none'});
     }
         else{
         $('.fixed_menu_left').css({display:'block'});    
         }
+            
+            
+            
+            
 })
     
     
