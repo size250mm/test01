@@ -358,10 +358,10 @@ display: flex; justify-content: center; align-items: center; }
     font-weight: 500;}
     
     .title_01{font-size: 24px; font-weight: 700; margin-bottom: 60px; }
-    .title_02{color:#254ac2; font-size: 60px; font-weight: 700; text-align:    center; margin: 80px 0 0 0;}
+    .title_02{color:#254ac2; font-size: 60px; font-weight: 700; text-align:center; margin: 80px 0 0 0;}
     .title_03{color:#254ac2; font-size: 60px; font-weight: 700; }
-    .title_04{color:#254ac2; font-size: 24px; font-weight: 700; text-align:    center; margin: 100px 0 100px 0; }
-    .title_05{color:#254ac2; font-size: 60px; font-weight: 700; text-align:    center; }
+    .title_04{color:#254ac2; font-size: 24px; font-weight: 700; text-align:center; margin: 100px 0 100px 0; }
+    .title_05{color:#254ac2; font-size: 60px; font-weight: 700; text-align:center; }
     .title_06{color:#254ac2; font-size: 24px; font-weight: 700; margin-bottom: 24px; }
 
     .copy_01{font-size: 16px; }
