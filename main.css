@@ -351,6 +351,9 @@ display: flex; justify-content: center; align-items: center; }
     
     .section_title{font-size: 40px; font-weight: 500; color:#404041; }
     
+    
+    .download_bar{display: flex; justify-content: center; }
+    .download_bar>p{margin: 10px;}
     .download_bar>p>a {
     font-size: 14px;
     color: #fff;
